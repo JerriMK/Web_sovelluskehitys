@@ -35,7 +35,7 @@ function min(func) {
     return 'The lowest number is: ' + minNumber;
 }
 
-function avg (func) {
+function calcAvg (func) {
     let numbersSum = 0;
     for (let number = 0; number < func.length; number++) {
         numbersSum += func[number];
@@ -48,4 +48,4 @@ console.log(throwDice);
 console.log(returnNums(throwDice));
 console.log(max(throwDice));
 console.log(min(throwDice));
-console.log(avg(throwDice));
+console.log(calcAvg(throwDice));
